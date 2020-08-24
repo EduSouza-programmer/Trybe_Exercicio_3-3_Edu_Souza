@@ -34,13 +34,52 @@
 
 # :rocket: Sobre o Exercício
 
+Hoje vamos finalizar a primeira versão do seu Portfólio Web adicionando seletores e CSS de layout.
+Com este exercício, você será capaz de:
+
+-   Aplicar layout mais consistente usando elementos de bloco e inline aplicando todo o conhecimento que você construiu hoje;
+
+-   Salvar todas as alterações dentro de um arquivo externo style.css;
+
+-   Usar Box Model para organizar melhor os elementos no seu Portfólio Web!;
+
+-   Atualizar seu Portfólio Web no GitHub Pages.
+
+### Layout e Box Model no seu Portfólio Web
+
+Antes de começar, você deve seguir estas instruções e fazer o setup para o exercício de hoje:
+
+1. Entre no diretório que você criou no dia anterior;
+2. Procure a tag <style></style>, onde você fez as alterações ontem. Mova todo o conteúdo da tag style e coloque em um arquivo style.css;
+3. Adicione as novas alterações dentro do arquivo style.css;
+4. Não se esqueça de importar esse arquivo na sua página;
+5. Depois de importar o arquivo style.css, você já pode remover a tag style do seu documento.
+
+### Requisitos
+
+Seu Portfólio Web deve ter ter um layout usando Box Model com as informações a seguir:
+
+-   Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;
+
+-   A descrição deve ficar ao lado da foto;
+
+-   Centralize seu nome na página;
+
+-   Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;
+
+-   Adicione margin e padding nos elementos com pelo menos 35px de distância;
+
+-   Coloque espaçamento entre os elementos para que você se sinta mais confortável com o que você fez;
+
+-   Coloque estilo somente nos ítens ímpares da lista das suas habilidades.
+
 #
 
 # Entrega
 
 ## Sumário
 
--   <p><a href="#1">1.</a> Adicione bordas, margem e espaçamento</p>
+-   <p><a href="#1">1.</a> Adicione bordas, margem e espaçamento;</p>
 
 ### **_Projetos_**
 
