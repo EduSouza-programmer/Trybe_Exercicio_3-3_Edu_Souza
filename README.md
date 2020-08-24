@@ -85,6 +85,8 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 -   <p><a href="#2">2.</a> Desafio: Posicionamento do planeta - Posicione a criatura, Posicione a saudação, Ordene-os ;</p>
 
+-   <p><a href="#3">3.</a> Desafio: Nuvens flutuantes - Torne a imagem flutuante, Torne a barra lateral flutuante, Adicione margens;</p>
+
 ### **_Projetos_**
 
 -   <p><a href="#Project_1">Projeto_1:</a> </p>
@@ -244,11 +246,102 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 ### 3°
 
-#### Faça citações em itálico e Faça declarações em negrito
+### Nuvens flutuantes
 
--   Essa página web mostra algumas citações e declarações famosas de filmes e programas de TV. Adicione uma regra CSS que
-    faz com que todas as citações tenham uma fonte de estilo itálico, de forma que elas se pareçam mais com citações.
-    Adicione uma regra CSS que faz com que todas as declarações tenham uma fonte destacada em negrito, assim vai parecer que elas foram ditas em voz alta.
+#### Torne a imagem flutuante
+
+-   Essa página web contém informações em nuvens mais uma foto de nuvens. Na primeira etapa, faça a foto flutuar à esquerda do texto, de forma que o texto fique em torno dela.
+
+#### Torne a barra lateral flutuante
+
+-   Há uma div amarela de informação. Faça essa div flutuar para a direita do texto, de forma que a foto fique do lado esquerdo do texto, e a div amarela fique do lado direito do texto.
+
+#### Adicione margens
+
+-   Agora que temos os elementos flutuando um ao lado do outro, devemos nos lembrar de separá-los com algum espaço em branco. Adicione margens apropriadas à foto e à barra lateral.
+
+#### Resposta:
+
+<details>
+<summary>Código HTML</summary>
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Challenge: Floating clouds</title>
+        <style>
+            body {
+                font-family: sans-serif;
+            }
+            h1 {
+                font-family: fantasy;
+            }
+            #cloud-pic {
+                width: 100px;
+                float: left;
+                margin: 0 10px;
+            }
+            #cloud-sidebar {
+                background: rgb(255, 255, 219);
+                float: right;
+                width: 30%;
+                margin: 0 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>What are clouds?</h1>
+
+        <img id="cloud-pic" src="https://www.kasandbox.org/programming-images/landscapes/clouds-from-plane.png" />
+
+        <div id="cloud-sidebar">
+            <h5>Why are some clouds yellow?</h5>
+            <p>
+                Yellowish clouds may occur in the late spring through early fall months during forest fire season. The
+                yellow color is due to the presence of pollutants in the smoke. Yellowish clouds caused by the presence
+                of nitrogen dioxide are sometimes seen in urban areas with high air pollution levels.
+            </p>
+        </div>
+
+        <p>
+            In meteorology, a cloud is a visible mass of liquid droplets or frozen crystals made of water or various
+            chemicals suspended in the atmosphere above the surface of a planetary body. These suspended particles are
+            also known as aerosols and are studied in the cloud physics branch of meteorology.
+        </p>
+
+        <p>
+            Terrestrial cloud formation is the result of air in Earth's atmosphere becoming saturated due to either or
+            both of two processes: cooling of the air and adding water vapor. With sufficient saturation, precipitation
+            will fall to the surface.
+        </p>
+
+        <p><a href="http://en.wikipedia.org/wiki/Cloud">Read more on Wikipedia</a></p>
+    </body>
+</html>
+```
+
+</details>
+
+<p align="right">
+    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-3_Edu_Souza/parte-1/challenge_3-nuvens_flutuantes.html">
+    <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
+    </a>&nbsp;
+    <a href="#Sumário">
+    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
+  </a>
+</p>
+
+#
+
+### 4°
+
+### Nuvens flutuantes
+
+#### Torne a imagem flutuante
+
+-   Essa página web contém informações em nuvens mais uma foto de nuvens. Na primeira etapa, faça a foto flutuar à esquerda do texto, de forma que o texto fique em torno dela.
 
 #### Resposta:
 
@@ -264,35 +357,6 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 <p align="right">
     <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-2/challenge_formatos_de_fonte_famosos.html">
-    <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
-    </a>&nbsp;
-    <a href="#Sumário">
-    <img alt="Back Sumário" src="https://img.shields.io/badge/Back-Sum%C3%A1rio-orange">
-  </a>
-</p>
-
-#
-
-### 4°
-
-#### Crie tamanhos de fonte grandes
-
--   Essa página web inclui a letra de uma música sobre palavras grandes. Colocamos as classes 'big' e 'bigger' nas tags "em" que descrevem palavras grandes, mas não as estilizamos. Adicione uma propriedade às regras CSS para tornar grande o tamanho das palavras 'big', e para tornar ainda maior o tamanho das palavras 'bigger'. Use as mesmas unidades para ambas as propriedades.
-
-#### Resposta:
-
-<details>
-<summary>Código HTML</summary>
-
-```html
-
-</html>
-```
-
-</details>
-
-<p align="right">
-    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-2/challenge_tamanhos_de_fonte_enormes.html">
     <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
     </a>&nbsp;
     <a href="#Sumário">
