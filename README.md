@@ -40,7 +40,7 @@
 
 ## Sumário
 
--   <p><a href="#1">1.</a> Adicione bordas, margem e espacámento</p>
+-   <p><a href="#1">1.</a> Adicione bordas, margem e espaçamento</p>
 
 ### **_Projetos_**
 
