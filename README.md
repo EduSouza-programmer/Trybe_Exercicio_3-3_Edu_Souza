@@ -93,7 +93,7 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 ### 1°
 
-## O modelo boxer
+### O modelo boxer
 
 #### Adicione bordas
 
@@ -165,17 +165,17 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 ### 2°
 
-## Posicionamento do planeta
+### Posicionamento do planeta
 
-### Posicione a criatura
+#### Posicione a criatura
 
 -   Essa página web contém uma imagem de um planeta, uma imagem de uma criatura, e uma div com uma saudação. Seu trabalho é fazer com que a criatura pareça estar sentada no planeta e dizendo a saudação. Nessa primeira etapa, use posicionamento absoluto para colocar a criatura em algum lugar em cima do planeta.
 
-### Posicione a saudação
+#### Posicione a saudação
 
 -   Nessa segunda etapa, também posicione a saudação em cima do planeta.
 
-### Ordene-os
+#### Ordene-os
 
 -   Agora, use uma propriedade z-index para garantir que a saudação sempre apareça em cima da criatura, e não atrás.
 
