@@ -79,7 +79,7 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 # Entrega
 
-## Sumário
+### Sumário
 
 -   <p><a href="#1">1.</a> Desafio: O modelo boxer - Adicione bordas, Margem e Espaçamento;</p>
 
