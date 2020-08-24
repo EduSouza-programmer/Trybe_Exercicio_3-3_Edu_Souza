@@ -81,7 +81,9 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 ## Sumário
 
--   <p><a href="#1">1.</a> Adicione bordas, margem e espaçamento;</p>
+-   <p><a href="#1">1.</a> Desafio: O modelo boxer - Adicione bordas, Margem e Espaçamento;</p>
+
+-   <p><a href="#2">2.</a> Desafio: Posicionamento do planeta - Posicione a criatura, Posicione a saudação, Ordene-os ;</p>
 
 ### **_Projetos_**
 
@@ -90,6 +92,8 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 ## Questões sobre os desafios [Meus códigos]
 
 ### 1°
+
+## O modelo boxer
 
 #### Adicione bordas
 
@@ -161,9 +165,19 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 ### 2°
 
-### Pinte o título inverno
+## Posicionamento do planeta
 
--   Essa página web descreve as estações favoritas de Olaf, um boneco de neve que ama o sol. Ambas as tags "h2" têm ids, mas não há regras CSS para estilizá-las. Adicione 2 regras que atribuam cor aos títulos.
+### Posicione a criatura
+
+-   Essa página web contém uma imagem de um planeta, uma imagem de uma criatura, e uma div com uma saudação. Seu trabalho é fazer com que a criatura pareça estar sentada no planeta e dizendo a saudação. Nessa primeira etapa, use posicionamento absoluto para colocar a criatura em algum lugar em cima do planeta.
+
+### Posicione a saudação
+
+-   Nessa segunda etapa, também posicione a saudação em cima do planeta.
+
+### Ordene-os
+
+-   Agora, use uma propriedade z-index para garantir que a saudação sempre apareça em cima da criatura, e não atrás.
 
 #### Resposta:
 
@@ -171,13 +185,52 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 <summary>Código HTML</summary>
 
 ```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Challenge: Position planet</title>
+        <style>
+            #greeting {
+                background: rgb(255, 255, 0);
+                border: 2px solid black;
+                font-family: "Comic Sans MS", fantasy;
+                padding: 5px;
+                width: 262px;
+                position: absolute;
+                top: 50px;
+                left: 150px;
+                z-index: 2;
+            }
 
+            #creature {
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                z-index: 1;
+            }
+            #planet {
+                position: absolute;
+                left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <img id="planet" src="https://www.kasandbox.org/programming-images/space/planet.png" width="300" />
+
+        <div id="greeting">
+            <p>Hello! Welcome to position planet!</p>
+        </div>
+
+        <img id="creature" src="https://www.kasandbox.org/programming-images/avatars/mr-pink.png" />
+    </body>
+</html>
 ```
 
 </details>
 
 <p align="right">
-    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-1/challenge-ids_sazonais.html">
+    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-3_Edu_Souza//parte-1/challenge_2-posicionamento_do_planeta.html">
     <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
     </a>&nbsp;
     <a href="#Sumário">
