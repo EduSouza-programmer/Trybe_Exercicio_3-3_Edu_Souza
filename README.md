@@ -40,7 +40,7 @@
 
 ## Sumário
 
--   <p><a href="#1">1.</a> Estilizar seu Portfólio Web usando todo o conhecimento que você construiu hoje;</p>
+-   <p><a href="#1">1.</a> Adicione bordas, margem e espacámento</p>
 
 ### **_Projetos_**
 
@@ -50,34 +50,65 @@
 
 ### 1°
 
-#### Titulo
+#### Adicione bordas
 
--   Estilizar seu Portfólio Web usando todo o conhecimento que você construiu hoje;
+-   Essa página web mostra uma galeria de fotos de cachorros da raça boxer. Nesse primeiro passo, adicione uma borda a todas as fotos. Se puder , tent fazer com que elas pareçam a moldura das fotos.
+
+#### Adicione margem
+
+-   As fotos parecem estar muito próximas uma das outras. Adicione margem a elas, de todos os lados, ou apenas nos lados que as separam.
+
+#### Adicione espaçamento
+
+-   As fotos estão muito próximas ao lado da div que represnta a galeria, e isso parece estranho. Adicione espaçamento em torno de todos os lados da div da galeria, para que a aparência fique melhor.
 
 #### Resposta:
 
 <details>
- <summary>Resolução do meu HTML</summary>
+ <summary>Código HTML</summary>
 
 ```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Challenge: The boxer model</title>
+        <style>
+            body {
+                font-family: cursive;
+            }
 
-```
+            .photo-gallery {
+                background: rgb(255, 254, 217);
+                padding: 100px;
+            }
 
-</details>
+            .photo {
+                width: 200px;
+                border: 10px ridge gray;
+                margin: 7px 7px;
+            }
+        </style>
+    </head>
 
-#### Código CSS:
+    <body>
+        <h1>Boxers are beautiful?</h1>
 
-<details>
+        <div class="photo-gallery">
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-getting-tan.png" />
 
- <summary>Resolução do meu CSS</summary>
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-laying-down.png" />
 
-```css
+            <img class="photo" src="https://www.kasandbox.org/programming-images/animals/boxer-wagging-tongue.png" />
+        </div>
+    </body>
+</html>
 ```
 
 </details>
 
 <p align="right">
-    <a href="https://edusouza-programmer.github.io/">
+    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-3_Edu_Souza/parte-1/challenge_1-o_modelo_boxer.html">
     <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
     </a>&nbsp;
     <a href="#Sumário">
