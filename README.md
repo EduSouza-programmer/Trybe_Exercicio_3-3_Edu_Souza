@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Exercício 3-3: HTML & CSS - Seletores e posicionamento - 
+  Exercício 3-3: HTML & CSS - Seletores e posicionamento - Trabalhando agora...
   
   ~~_Concluído o/ o/ o/_~~
 </h3>
