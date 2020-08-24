@@ -3,7 +3,9 @@
 </h1>
 
 <h3 align="center">
-  Exercício 3-3: HTML & CSS - Seletores e posicionamento - --Concluído o/ o/ o/--
+  Exercício 3-3: HTML & CSS - Seletores e posicionamento - 
+  
+  ~~_Concluído o/ o/ o/_~~
 </h3>
 
 <blockquote align="center">“Quanto mais você estuda, mais aprende e se aproxima de realizar seu sonhos!”</blockquote>
