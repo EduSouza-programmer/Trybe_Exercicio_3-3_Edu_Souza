@@ -87,6 +87,8 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 -   <p><a href="#3">3.</a> Desafio: Nuvens flutuantes - Torne a imagem flutuante, Torne a barra lateral flutuante, Adicione margens;</p>
 
+-   <p><a href="#4">4.</a> Desafio: Descendentes de Khan - Adicione regras descendentes;</p>
+
 ### **_Projetos_**
 
 -   <p><a href="#Project_1">Projeto_1:</a> Convite de evento;</p>
@@ -337,11 +339,13 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 ### 4°
 
-### Nuvens flutuantes
+### Descendentes de Khan
 
-#### Torne a imagem flutuante
+#### Adicione regras descendentes
 
--   Essa página web contém informações em nuvens mais uma foto de nuvens. Na primeira etapa, faça a foto flutuar à esquerda do texto, de forma que o texto fique em torno dela.
+-   Essa página web descreve o Genghis Khan, um imperador que tinha muitos descendentes, e inclui uma tabela com apenas alguns dos imperadores que descendem dele. Adicione uma regra que atinge somente os elementos que têm a classe 'emperor' (imperador) e que estão na tabela. A regra deve alterar a cor de fundo dessas células da tabela.
+
+-   Agora, adicione outra regra que atinja apenas os elementos que têm o nome de classe "reign" na tabela. Como na primeira etapa, a regra deve alterar a cor de fundo dessas células da tabela. Escolha uma cor diferente da que você escolheu para a outra regra!
 
 #### Resposta:
 
@@ -349,13 +353,65 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 <summary>Código HTML</summary>
 
 ```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Challenge: Descendants of Khan</title>
+        <style>
+            .emperor {
+                font-family: cursive;
+            }
 
+            .reign {
+                font-family: monospace;
+            }
+            table .emperor {
+                background-color: red;
+            }
+            table .reign {
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Descendants of Khan</h1>
+
+        <p>
+            <strong class="emperor">Genghis Khan</strong> (<span class="reign">1206-1227</span>) was a emperor who had
+            many sons and daughters, and many famous emperors are descended from him. (But not Sal Khan!)
+        </p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Reign</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="emperor">Ögedei Khan</td>
+                    <td class="reign">1229-1241</td>
+                </tr>
+                <tr>
+                    <td class="emperor">Kublai Khan</td>
+                    <td class="reign">1260-1294</td>
+                </tr>
+                <tr>
+                    <td class="emperor">Temür Khan</td>
+                    <td class="reign">1294-1307</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
 ```
 
 </details>
 
 <p align="right">
-    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-2_Edu_Souza/parte-2/challenge_formatos_de_fonte_famosos.html">
+    <a href="https://edusouza-programmer.github.io/Trybe_Exercicio_3-3_Edu_Souza/parte-2/challenge_4-descendentes_de_khan.html">
     <img alt="Go index.html" src="https://img.shields.io/badge/Go-index.html-orange">
     </a>&nbsp;
     <a href="#Sumário">
