@@ -89,7 +89,7 @@ Seu Portfólio Web deve ter ter um layout usando Box Model com as informações 
 
 ### **_Projetos_**
 
--   <p><a href="#Project_1">Projeto_1:</a> Convite de evento</p>
+-   <p><a href="#Project_1">Projeto_1:</a> Convite de evento;</p>
 
 #
 
